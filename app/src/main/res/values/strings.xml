@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BuildPC</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="auth">Вхід</string>
+    <string name="no_register">Не зареєстровані? Натисніть тут аби зареєструватися</string>
+    <string name="login">Логін</string>
+    <string name="register">Реєстрація</string>
+    <string name="registered">Вже зареєстровані? Натисніть тут, аби авторизуватися</string>
+    <string name="Components">Компоненти</string>
+    <string name="AddComponent">Додати компонент</string>
+    <string name="Name">Назва</string>
+    <string name="Type">Тип</string>
+    <string name="Socket">Сокет</string>
+    <string name="Brand">Бренд</string>
+    <string name="Price">Ціна</string>
+    <string name="Specs">Специфікації</string>
+    <string name="Config">Створити конфігурацію</string>
+    <string name="NameConfig">Назва конфігурації</string>
+    <string name="CompareComponents">Порівняти компоненти</string>
+    <string name="users">Користувачі</string>
+    <string name="GenerateReport">Створити звіт</string>
+    <string name="Configs">Конфігурації</string>
+    <string name="Search">Пошук за назвою, брендом або типом</string>
+    <string name="user">Користувач</string>
+    <string name="logout">Вийти</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main">Головна</string>
+    <string name="rules">Сумісність</string>
+    <string name="profile">Профіль</string>
+    <string name="rules_components">Сумісність компонентів</string>
+</resources>

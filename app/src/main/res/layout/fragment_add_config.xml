@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddConfigActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/componentNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/etConfigName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/NameConfig"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <Button
+        android:id="@+id/btnSaveConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#4caf50"
+        android:text="@string/Config"
+        android:textColor="#0d47a1"
+        android:textStyle="bold"
+        app:cornerRadius="1dp"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

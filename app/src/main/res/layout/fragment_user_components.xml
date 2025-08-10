@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:ignore="VisualLintTextFieldSize">
+
+    <SearchView
+        android:minHeight="48dp"
+        android:id="@+id/searchView"
+        android:layout_margin="5dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/Search"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:minHeight="48dp"
+        android:layout_below="@id/searchView"
+        android:id="@+id/sortSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:spinnerMode="dropdown"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_above="@id/btnCompare"
+        android:layout_below="@id/sortSpinner"
+        android:layout_margin="5dp"
+        android:id="@+id/recyclerViewComponents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/btnCompare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4caf50"
+        android:text="@string/CompareComponents"
+        android:textColor="#0D47a1"
+        android:textStyle="bold"
+        app:cornerRadius="1dp"
+        android:layout_alignParentBottom="true"
+        tools:ignore="VisualLintButtonSize" />
+
+</RelativeLayout>

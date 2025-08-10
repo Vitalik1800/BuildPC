@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddComponentActivity"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Name"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/etType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Type"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/etSocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Socket"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/etBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Brand"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Price"
+        android:inputType="numberDecimal"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/etSpecs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Specs"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize"/>
+
+    <Button
+        android:id="@+id/btnAddComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#4caf50"
+        android:text="@string/AddComponent"
+        android:textColor="#263238"
+        app:cornerRadius="1dp"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
